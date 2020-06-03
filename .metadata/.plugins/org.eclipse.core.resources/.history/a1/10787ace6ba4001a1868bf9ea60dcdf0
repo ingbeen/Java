@@ -1,0 +1,4 @@
+class Solution {
+	String name;
+	int age
+}

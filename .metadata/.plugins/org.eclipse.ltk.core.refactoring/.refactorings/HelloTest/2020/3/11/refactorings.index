@@ -1,0 +1,55 @@
+1583820368588	Copy compilation unit
+1583824811849	Copy compilation unit
+1583834136750	Rename local variable 'max'
+1583924903945	Rename local variable 'a1'
+1583924910933	Rename local variable 'a2'
+1583924916968	Rename local variable 'a3'
+1583995210280	Rename type 'Student'
+1583995218318	Copy compilation unit
+1583995290528	Rename type 'Student'
+1583995303686	Rename type 'StudentApp'
+1584002715712	Rename method 'input'
+1584002725297	Rename method 'output'
+1584003942060	Rename type 'Student'
+1584005817051	Copy compilation unit
+1584005870656	Copy compilation units
+1584005883283	Delete element
+1584005932886	Delete element
+1584005950578	Copy compilation unit
+1584005959455	Delete element
+1584005979411	Copy compilation unit
+1584005985849	Copy compilation unit
+1584005995903	Delete element
+1584006017461	Delete element
+1584006022453	Copy compilation unit
+1584006036766	Copy compilation unit
+1584006040806	Delete element
+1584006043551	Delete element
+1584006057635	Copy compilation unit
+1584006061838	Delete element
+1584006064939	Copy compilation unit
+1584006072134	Delete element
+1584006075106	Copy compilation unit
+1584006078268	Delete element
+1584006239351	Rename field 'number'
+1584006250186	Rename field 'name'
+1584006256192	Rename field 'kor'
+1584006262882	Rename field 'eng'
+1584006279302	Rename field 'average'
+1584006288800	Rename field 'rating'
+1584061678029	Rename method 'input_2'
+1584061689215	Rename method 'output_2'
+1584064271654	Move compilation unit
+1584064273464	Move compilation unit
+1584065674719	Move compilation unit
+1584068543182	Copy compilation unit
+1584068551972	Delete element
+1584068816841	Delete element
+1584068826476	Rename compilation unit 'asd.java'
+1584076643717	Copy compilation unit
+1584076650441	Copy compilation unit
+1584076753298	Move compilation units
+1584076779925	Delete elements
+1584095619472	Rename field 'price'
+1584095627057	Rename field 'totPrice'
+1584096426891	Rename field 'count'

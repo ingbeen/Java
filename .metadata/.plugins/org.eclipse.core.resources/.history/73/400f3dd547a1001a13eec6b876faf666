@@ -1,0 +1,57 @@
+package CompleteSearch;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+
+/*
+int[] answers = { 1, 2, 3, 4, 5 };
+int[] answers = { 1, 3, 2, 4, 2 };
+*/
+
+public class TestLevel1_Solution1 {
+	public static int[] solution(int[] answers) {
+		int[] answer = null;
+		
+		// 수포자들의 정답번호 할당
+		ArrayList<int[]> users = new ArrayList<int[]>();
+		users.add(new int[]{1, 2, 3, 4, 5});
+		users.add(new int[]{2, 1, 2, 3, 2, 4, 2, 5});
+		users.add(new int[]{3, 3, 1, 1, 2, 2, 4, 4, 5, 5});
+		
+		// 
+		HashMap<Integer, Integer> userPoint = new HashMap<Integer, Integer>();
+		for (int i = 0; i < users.size(); i++) {
+			int point = 0;
+			int k = 0;
+			for (int j = 0; j < users.get(i).length; j++) {
+				if (users.get(i)[j] == answers[k]) {
+					point++;
+				}
+				k++;
+				if (k == 5) {
+					k = 0;
+				}
+			}
+			userPoint.put(i, point);
+		}
+		
+		
+		
+		int maxPoint = Collections.max(userPoint.values());
+		ArrayList<Integer> maxPointInUser = new ArrayList<Integer>();
+		for(Integer user : userPoint.keySet()) {
+			if (userPoint.get(user) == maxPoint) {
+				maxPointInUser.add(user + 1);
+			}
+		}
+		Collections.sort(maxPointInUser);
+		
+		answer = new int[maxPointInUser.size()];
+		for (int i = 0; i < answer.length; i++) {
+			answer[i] = maxPointInUser.get(i).intValue();
+		}
+		
+		return answer;
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.HashMap;
+
+public class TestApp {
+    public static void main(String[] args) {
+    	HashMap<String, String> vo = new HashMap<String, String>();
+    	vo.put("name", "ÀÌ±âÀÚ");
+    	vo.put("age", "13");
+    	
+    	Solution ss = new Solution();
+    	
+    	ss
+    }
+}

@@ -1,0 +1,13 @@
+
+public class TestApp {
+    public static void main(String[] args) {
+    	double value = 120.0;
+    	double j = 0.98;
+    	
+    	for (double i = 0; i < 20; i++) {
+    		value *= j;
+    		System.out.println(value);
+    	}
+    	
+    }
+}

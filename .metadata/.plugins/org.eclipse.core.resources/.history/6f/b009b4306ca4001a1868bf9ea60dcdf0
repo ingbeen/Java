@@ -1,0 +1,31 @@
+import java.util.HashMap;
+/*
+class Solution {
+	String name;
+	int age;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+}
+ */
+public class TestApp {
+    public static void main(String[] args) {
+    	HashMap<String, String> vo = new HashMap<String, String>();
+    	vo.put("name", "¿Ã±‚¿⁄");
+    	vo.put("age", "13");
+    	
+    	Solution ss = new Solution();
+    	
+    	ss.setName(vo.get("name"));
+    	ss.setAge(vo.get("age").toString());
+    }
+}
